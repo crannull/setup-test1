@@ -1,0 +1,13 @@
+services:
+  hostinger-test1:
+    image: ghcr.io/crannull/hostinger-test1:latest
+    container_name: hostinger-test1
+
+    ports:
+      - "3000:3000"
+
+    restart: unless-stopped
+    init: true
+
+    security_opt:
+      - no-new-privileges:true
