@@ -1,0 +1,21 @@
+{
+  "name": "setup-test1",
+  "version": "1.0.0",
+  "description": "setup-test1",
+  "homepage": "https://github.com/crannull/setup-test1#readme",
+  "bugs": {
+    "url": "https://github.com/crannull/setup-test1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crannull/setup-test1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
